@@ -1,0 +1,13 @@
+name: HGEssentials
+version: '1.0'
+main: org.lanzoz.hGEssentials.HGEssentials
+api-version: '1.21'
+prefix: HGEssentials
+authors: [ LanzoZ ]
+depend:
+  - HGCore
+commands:
+  gm:
+    permissions:
+      hgessential.gamemode:
+        default: op
